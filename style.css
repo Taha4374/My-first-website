@@ -1,0 +1,251 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(156, 156, 156);
+    color: white;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    align-items: center;
+}
+
+#name h1 {
+    color: black;
+}
+
+.information p {
+    display: flex;
+    font-size: 15px;
+    margin-top: -20px;
+    justify-content: center;
+    font-weight: 500;
+}
+
+#work {
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+#work h2 {
+    margin-top: 15vh;
+    font-size: 2.5em;
+    color: black;
+}
+
+.education {
+
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.education h2 {
+    margin-top: 13vh;
+    font-size: 2.5em;
+    color: black;
+}
+
+
+.skills {
+    margin-top: 13vh;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.skills h2 {
+    font-size: 2.5em;
+    color: black;
+}
+
+
+
+.certificates {
+    margin-top: 13vh;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.certificates h2 {
+    color: black;
+    font-size: 2.5em;
+}
+
+
+.language {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.language h2 {
+    margin-top: 13vh;
+    color: black;
+    font-size: 2.5em;
+}
+
+
+.contact {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.contact h2 {
+    margin-top: 13vh;
+    color: black;
+    font-size: 2.5em;
+}
+
+
+.projects {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.projects h2 {
+    margin-top: 13vh;
+    color: black;
+    font-size: 2.5em;
+
+}
+
+
+/* Add the following styles to your existing CSS code */
+
+@media only screen and (min-width: 10px) and (max-width: 100px) {
+    .image {
+      margin-top: 20px;
+    }
+  
+    .image img {
+      width: 120px;
+      height: 120px;
+      border-width: 4px;
+    }
+  
+    #name h1 {
+      font-size: 0.5em;
+    }
+  
+    .information p {
+      font-size: 13px;
+    }
+  
+    #work h2,
+    .education h2,
+    .skills h2,
+    .certificates h2,
+    .language h2,
+    .contact h2,
+    .projects h2 {
+        margin-left: -20px;
+      font-size: 1.3em;
+      margin-top: 10vh;
+    }
+  
+    .education li,
+    .skills li,
+    .certificates li,
+    .contact li {
+        margin-left: -30px;
+      margin-bottom: 10px;
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 100px) and (max-width: 700px) {
+    .image {
+      margin-top: 20px;
+    }
+  
+    .image img {
+      width: 120px;
+      height: 120px;
+      border-width: 4px;
+    }
+  
+    #name h1 {
+      font-size: 0.8em;
+    }
+  
+    .information p {
+      font-size: 13px;
+    }
+  
+    #work h2,
+    .education h2,
+    .skills h2,
+    .certificates h2,
+    .language h2,
+    .contact h2,
+    .projects h2 {
+        margin-left: -20px;
+      font-size: 1.3em;
+      margin-top: 10vh;
+    }
+  
+    .education li p,
+    .skills li p,
+    .certificates li p,
+    .contact li p{
+        margin-left: -30px;
+      margin-bottom: 10px;
+      font-size: 10px;
+    }
+  }
+  
+  /* Add the following styles to your existing CSS code */
+
+@media only screen and (min-width: 700px) and (max-width: 1400px) {
+    .image {
+      margin-top: 20px;
+    }
+  
+    .image img {
+      width: 120px;
+      height: 120px;
+      border-width: 4px;
+    }
+  
+    #name h1 {
+      font-size: 1.5em;
+    }
+  
+    .information p {
+      font-size: 20px;
+    }
+  
+    #work h2,
+    .education h2,
+    .skills h2,
+    .certificates h2,
+    .language h2,
+    .contact h2,
+    .projects h2 {
+      font-size: 1.8em;
+      margin-top: 10vh;
+    }
+  
+    .education li,
+    .certificates li,
+    .contact li {
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+  
